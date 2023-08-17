@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 8px solid rgb(232 76 98);
+    width: 95vw;
+    padding: 10px;
+
+}
+
+.wrapper1 {
+    border: 8px solid rgb(232 76 98);
+    width: 100vw;
+    position: relative;
+}
+
+header {
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.wrapper h1 {
+    font-size: 115px;
+    margin-top: -60px;
+    font-weight: 100;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(232 76 98);
+}
+
+header .img {
+    margin-top: -10px;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    background: black;
+}
+
+.banner {
+    position: absolute;
+    background-color: #265595;
+    text-align: center;
+    color: white;
+    display: flex;
+    right: 39%;
+    top: 55%;
+    height: 10%;
+    width: 19%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.section {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 45px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+}
+
+.no {
+    margin-left: 8%;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
