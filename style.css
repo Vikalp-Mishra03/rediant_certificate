@@ -146,3 +146,17 @@ header .img {
     display: flex;
     justify-content: center;
 }
+
+.office-address {
+    font-family: 'Poppins', sans-serif;
+    background: #184390;
+    color: white;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
