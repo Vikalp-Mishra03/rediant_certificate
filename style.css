@@ -118,7 +118,7 @@ header .img {
     font-family: 'Tangerine', cursive;
 }
 
-.higher{
+.higher {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -128,7 +128,21 @@ header .img {
     margin-top: 100px;
 }
 
-.higher .signature{
+.higher .signature {
     line-height: 60px;
     text-align: center;
+}
+
+.grades {
+    width: 95%;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    color: white;
+    background: #ea6e7c;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
